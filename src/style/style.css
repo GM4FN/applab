@@ -30,11 +30,24 @@ ul {
   justify-content: space-between;
   align-items: center; }
 
+.logo {
+  transition: 0.5s ease;
+  border-radius: 20px; }
+  .logo:hover {
+    background-color: rgba(254, 170, 37, 0.7); }
+
 .navigation-list_ul {
   display: flex;
   align-items: center; }
   .navigation-list_ul li {
     margin-right: 40px; }
+    .navigation-list_ul li a {
+      transition: 0.9s ease;
+      text-decoration-color: white; }
+      .navigation-list_ul li a:hover {
+        text-decoration: underline;
+        text-decoration-color: #feaa25;
+        text-decoration-thickness: 2px; }
     .navigation-list_ul li:last-of-type {
       margin-right: 0px;
       margin-left: 20px; }
